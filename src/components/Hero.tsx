@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import carolinePortrait from "../assets/images/regenerated_image_1777908954685.jpg";
+import carolinePortrait from "@/src/assets/images/Caroline_6578.jpg";
 
 export function Hero() {
   return (

@@ -3,7 +3,7 @@ import { Hero } from "./components/Hero";
 import { WorkSection } from "./components/WorkSection";
 import { Footer } from "./components/Footer";
 
-import carolinePortrait from "./assets/images/regenerated_image_1777909025062.png";
+import carolinePortrait from "@/src/assets/images/regenerated_image_1777910841793.png";
 
 export default function App() {
   return (
