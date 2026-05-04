@@ -3,7 +3,8 @@ import { Hero } from "./components/Hero";
 import { WorkSection } from "./components/WorkSection";
 import { Footer } from "./components/Footer";
 
-const carolineAboutImage = "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop";
+// Using descriptive placeholders since local assets are pending upload
+const carolineAboutImage = "https://images.unsplash.com/photo-1586717791821-3f44a563eb4c?q=80&w=2070&auto=format&fit=crop";
 
 export default function App() {
   return (
@@ -24,8 +25,8 @@ export default function App() {
             <div className="aspect-[21/9] bg-neutral-100 border border-brand-paper/10 overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000 group relative">
               <img 
                 src={carolineAboutImage} 
-                alt="Caroline Li"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
+                alt="Caroline Li Infographic"
+                className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-1000"
               />
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-20">
                 <span className="text-[10px] uppercase tracking-widest font-bold">Primary Portrait [Wider]</span>

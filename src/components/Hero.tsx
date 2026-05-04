@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
-const carolineHeroImage = "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop";
+// Using descriptive placeholders since local assets are pending upload
+const carolineHeroImage = "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop";
 
 export function Hero() {
   return (
