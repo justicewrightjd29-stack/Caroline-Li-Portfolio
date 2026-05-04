@@ -4,8 +4,7 @@ import { ProjectCard, type Project } from "./ProjectCard";
 import { ProjectModal } from "./ProjectModal";
 import { motion, AnimatePresence } from "motion/react";
 import { Sparkles, RefreshCw } from "lucide-react";
-// Using direct paths to assets. Upload files to src/assets/images/ with these names.
-const stolenShadowImage = "/src/assets/images/dou_stolen_shadow.png";
+import stolenShadowImage from "../assets/images/Stolen_Shadow.jpg";
 
 const INITIAL_PROJECTS: Project[] = [
   {

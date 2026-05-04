@@ -1,6 +1,5 @@
 import { motion } from "motion/react";
-// Using direct paths to assets. Upload files to src/assets/images/ with these names.
-const carolineHeroImage = "/src/assets/images/weixin_portrait.jpg";
+import carolineHeroImage from "../assets/images/Caroline_6578.jpg";
 
 export function Hero() {
   return (

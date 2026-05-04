@@ -3,8 +3,7 @@ import { Hero } from "./components/Hero";
 import { WorkSection } from "./components/WorkSection";
 import { Footer } from "./components/Footer";
 
-// Using direct paths to assets. Upload files to src/assets/images/ with these names.
-const carolineAboutImage = "/src/assets/images/34_infographic.png";
+import carolineAboutImage from "./assets/images/regenerated_image_1777911686070.png";
 
 export default function App() {
   return (
@@ -25,8 +24,8 @@ export default function App() {
             <div className="aspect-[21/9] bg-neutral-100 border border-brand-paper/10 overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000 group relative">
               <img 
                 src={carolineAboutImage} 
-                alt="Caroline Li Infographic"
-                className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-1000"
+                alt="Caroline Li"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
               />
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-20">
                 <span className="text-[10px] uppercase tracking-widest font-bold">Primary Portrait [Wider]</span>
