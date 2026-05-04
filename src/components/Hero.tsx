@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
-// Using descriptive placeholders since local assets are pending upload
-const carolineHeroImage = "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop";
+// Using direct paths to assets. Upload files to src/assets/images/ with these names.
+const carolineHeroImage = "/src/assets/images/weixin_portrait.jpg";
 
 export function Hero() {
   return (

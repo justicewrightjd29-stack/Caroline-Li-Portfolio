@@ -4,8 +4,8 @@ import { ProjectCard, type Project } from "./ProjectCard";
 import { ProjectModal } from "./ProjectModal";
 import { motion, AnimatePresence } from "motion/react";
 import { Sparkles, RefreshCw } from "lucide-react";
-// Using descriptive placeholders since local assets are pending upload
-const stolenShadowImage = "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=2070&auto=format&fit=crop";
+// Using direct paths to assets. Upload files to src/assets/images/ with these names.
+const stolenShadowImage = "/src/assets/images/dou_stolen_shadow.png";
 
 const INITIAL_PROJECTS: Project[] = [
   {

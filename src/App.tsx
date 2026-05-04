@@ -3,8 +3,8 @@ import { Hero } from "./components/Hero";
 import { WorkSection } from "./components/WorkSection";
 import { Footer } from "./components/Footer";
 
-// Using descriptive placeholders since local assets are pending upload
-const carolineAboutImage = "https://images.unsplash.com/photo-1586717791821-3f44a563eb4c?q=80&w=2070&auto=format&fit=crop";
+// Using direct paths to assets. Upload files to src/assets/images/ with these names.
+const carolineAboutImage = "/src/assets/images/34_infographic.png";
 
 export default function App() {
   return (
