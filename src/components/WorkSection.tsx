@@ -5,6 +5,10 @@ import { ProjectModal } from "./ProjectModal";
 import { motion, AnimatePresence } from "motion/react";
 import { Sparkles, RefreshCw } from "lucide-react";
 import stolenShadowImage from "../assets/images/Stolen_Shadow.jpg";
+import interactionImg1 from "../assets/images/regenerated_image_1777908758543.png";
+import experienceImg1 from "../assets/images/regenerated_image_1777908759825.png";
+import gameImg1 from "../assets/images/regenerated_image_1777908857149.png";
+import domesticImg1 from "../assets/images/Caroline_6578.jpg";
 
 const INITIAL_PROJECTS: Project[] = [
   {
@@ -12,7 +16,7 @@ const INITIAL_PROJECTS: Project[] = [
     title: "Care as Currency",
     description: "A visionary civic credit system that reimagines community value, transforming everyday acts of care into a sustainable network of mutual residential support.",
     category: "Interaction Design",
-    image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=2070&auto=format&fit=crop",
+    image: interactionImg1,
     link: "https://liyushan7ms.wixsite.com/caroline/portfolio-collections/portfolio/web-design-portfolio-1",
   },
   {
@@ -20,7 +24,7 @@ const INITIAL_PROJECTS: Project[] = [
     title: "New ZOO",
     description: "An immersive exploration into digital sanctuary design, bridging the gap between human curiosity and the preservation of wild wonder through interactive narratives.",
     category: "Experience Design",
-    image: "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?q=80&w=2070&auto=format&fit=crop",
+    image: experienceImg1,
     link: "https://liyushan7ms.wixsite.com/caroline/portfolio-collections/portfolio/illustration-gallery",
   },
   {
@@ -28,7 +32,7 @@ const INITIAL_PROJECTS: Project[] = [
     title: "Chatventure",
     description: "A sophisticated interactive conversation game that pushes the boundaries of storytelling, where every dialogue choice cascades into unique narrative pathways.",
     category: "Game Design",
-    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070&auto=format&fit=crop",
+    image: gameImg1,
     link: "https://liyushan7ms.wixsite.com/caroline/portfolio-collections/portfolio/writing-and-content-creation",
   },
   {
@@ -36,7 +40,7 @@ const INITIAL_PROJECTS: Project[] = [
     title: "Family Interplay",
     description: "An interactive animation exploring Chinese family traditions and structures. A study of domestic space, physical ritual, and the emotional resonance of traditional architecture.",
     category: "Interaction Design",
-    image: "https://images.unsplash.com/photo-1542037104857-ffbb0b9155fb?q=80&w=1954&auto=format&fit=crop", // A symbolic domestic architecture image
+    image: domesticImg1,
     link: "https://liyushan7ms.wixsite.com/caroline/portfolio-collections/portfolio/graphic-design-case-studies",
   },
   {

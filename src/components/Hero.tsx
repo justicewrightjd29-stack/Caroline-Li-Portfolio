@@ -13,14 +13,7 @@ export function Hero() {
             className="font-display text-[14vw] md:text-[min(180px,12vw)] leading-[0.8] tracking-tighter uppercase italic -skew-x-6 relative inline-block w-full"
           >
             Caroline 
-            <motion.img 
-              src="/weixin_image_20250304143440.png" 
-              className="absolute -right-8 md:-right-16 -top-4 h-20 md:h-32 object-contain grayscale invert mix-blend-difference opacity-80 z-10"
-              initial={{ opacity: 0, rotate: -10, x: 20 }}
-              animate={{ opacity: 0.8, rotate: 0, x: 0 }}
-              transition={{ delay: 1, duration: 1 }}
-            />
-            <br />
+             <br />
             <span className="opacity-10 text-outline">Li</span>
           </motion.h1>
 
