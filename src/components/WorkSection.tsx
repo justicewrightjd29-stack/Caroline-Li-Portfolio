@@ -4,7 +4,6 @@ import { ProjectCard, type Project } from "./ProjectCard";
 import { ProjectModal } from "./ProjectModal";
 import { motion, AnimatePresence } from "motion/react";
 import { Sparkles, RefreshCw } from "lucide-react";
-import stolenShadowImage from "../assets/images/Stolen_Shadow.jpg";
 
 const INITIAL_PROJECTS: Project[] = [
   {
@@ -52,7 +51,7 @@ const INITIAL_PROJECTS: Project[] = [
     title: "Stolen Shadow",
     description: "A cinematic 3D animation film about a battle written in ink and fate. Features a jade 'bi' disk, a white tiger, and themes of destiny rooted in traditional aesthetics.",
     category: "3D Animation",
-    image: stolenShadowImage,
+    image: "/images/Stolen_Shadow.jpg",
     link: "https://liyushan7ms.wixsite.com/caroline/portfolio-collections/portfolio/carolines-photography-showcase",
   }
 ];
