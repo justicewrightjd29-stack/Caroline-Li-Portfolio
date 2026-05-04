@@ -12,7 +12,7 @@ const INITIAL_PROJECTS: Project[] = [
     title: "Care as Currency",
     description: "A visionary civic credit system that reimagines community value, transforming everyday acts of care into a sustainable network of mutual residential support.",
     category: "Interaction Design",
-    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=2000&auto=format&fit=crop", // Changed to a more UX/Community focused image
+    image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=2070&auto=format&fit=crop", // Restored 'many hands' image
     link: "https://liyushan7ms.wixsite.com/caroline/portfolio-collections/portfolio/web-design-portfolio-1",
   },
   {
@@ -57,7 +57,7 @@ const INITIAL_PROJECTS: Project[] = [
   }
 ];
 
-export function WorkSection() {
+export function WorkSection({ onProjectClick }: { onProjectClick: (url: string) => void }) {
   const [projects, setProjects] = useState(INITIAL_PROJECTS);
   const [isEnhancing, setIsEnhancing] = useState(false);
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
@@ -139,6 +139,7 @@ export function WorkSection() {
       <ProjectModal 
         project={selectedProject} 
         onClose={() => setSelectedProject(null)} 
+        onWixClick={onProjectClick}
       />
     </section>
   );

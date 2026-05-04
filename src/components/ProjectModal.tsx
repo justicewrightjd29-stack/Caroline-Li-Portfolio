@@ -6,9 +6,10 @@ import type { Project } from "./ProjectCard";
 interface ProjectModalProps {
   project: Project | null;
   onClose: () => void;
+  onWixClick: (url: string) => void;
 }
 
-export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
+export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose, onWixClick }) => {
   return (
     <AnimatePresence>
       {project && (
@@ -33,15 +34,13 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
                 <h3 className="text-xl font-serif italic">{project.title}</h3>
               </div>
               <div className="flex items-center gap-4">
-                <a 
-                  href={project.link} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
+                <button 
+                  onClick={() => onWixClick(project.link)}
                   className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest hover:opacity-100 opacity-60 transition-opacity"
                 >
                   <ExternalLink className="h-3 w-3" />
-                  Open Externally
-                </a>
+                  Scale View
+                </button>
                 <button 
                   onClick={onClose}
                   className="p-2 hover:bg-brand-paper/5 rounded-full transition-colors"
