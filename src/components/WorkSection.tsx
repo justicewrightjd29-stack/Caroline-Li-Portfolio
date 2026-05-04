@@ -4,7 +4,7 @@ import { ProjectCard, type Project } from "./ProjectCard";
 import { ProjectModal } from "./ProjectModal";
 import { motion, AnimatePresence } from "motion/react";
 import { Sparkles, RefreshCw } from "lucide-react";
-import stolenShadowImage from "../assets/images/Stolen_Shadow.jpg";
+const stolenShadowImage = "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1964&auto=format&fit=crop";
 
 const INITIAL_PROJECTS: Project[] = [
   {

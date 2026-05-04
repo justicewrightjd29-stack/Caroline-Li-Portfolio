@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import carolineHeroImage from "../assets/images/Caroline_6578.jpg";
+const carolineHeroImage = "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop";
 
 export function Hero() {
   return (

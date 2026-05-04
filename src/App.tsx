@@ -3,7 +3,7 @@ import { Hero } from "./components/Hero";
 import { WorkSection } from "./components/WorkSection";
 import { Footer } from "./components/Footer";
 
-import carolineAboutImage from "./assets/images/regenerated_image_1777911686070.png";
+const carolineAboutImage = "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop";
 
 export default function App() {
   return (
