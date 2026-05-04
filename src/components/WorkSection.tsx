@@ -4,12 +4,7 @@ import { ProjectCard, type Project } from "./ProjectCard";
 import { ProjectModal } from "./ProjectModal";
 import { motion, AnimatePresence } from "motion/react";
 import { Sparkles, RefreshCw } from "lucide-react";
-import stolenShadowImage from "../assets/images/Stolen_Shadow.jpg";
-import image1 from "../assets/images/regenerated_image_1777908857149.png";
-import image2 from "../assets/images/regenerated_image_1777908954685.jpg";
-import image3 from "../assets/images/regenerated_image_1777909025062.png";
-import image4 from "../assets/images/regenerated_image_1777910841793.png";
-import image5 from "../assets/images/regenerated_image_1777910843137.jpg";
+import stolenShadowImage from "@/src/assets/images/Stolen_Shadow.jpg";
 
 const INITIAL_PROJECTS: Project[] = [
   {
@@ -17,7 +12,7 @@ const INITIAL_PROJECTS: Project[] = [
     title: "Care as Currency",
     description: "A visionary civic credit system that reimagines community value, transforming everyday acts of care into a sustainable network of mutual residential support.",
     category: "Interaction Design",
-    image: image1,
+    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=2000&auto=format&fit=crop", // Changed to a more UX/Community focused image
     link: "https://liyushan7ms.wixsite.com/caroline/portfolio-collections/portfolio/web-design-portfolio-1",
   },
   {
@@ -25,7 +20,7 @@ const INITIAL_PROJECTS: Project[] = [
     title: "New ZOO",
     description: "An immersive exploration into digital sanctuary design, bridging the gap between human curiosity and the preservation of wild wonder through interactive narratives.",
     category: "Experience Design",
-    image: image2,
+    image: "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?q=80&w=2070&auto=format&fit=crop",
     link: "https://liyushan7ms.wixsite.com/caroline/portfolio-collections/portfolio/illustration-gallery",
   },
   {
@@ -33,7 +28,7 @@ const INITIAL_PROJECTS: Project[] = [
     title: "Chatventure",
     description: "A sophisticated interactive conversation game that pushes the boundaries of storytelling, where every dialogue choice cascades into unique narrative pathways.",
     category: "Game Design",
-    image: image3,
+    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070&auto=format&fit=crop",
     link: "https://liyushan7ms.wixsite.com/caroline/portfolio-collections/portfolio/writing-and-content-creation",
   },
   {
@@ -41,7 +36,7 @@ const INITIAL_PROJECTS: Project[] = [
     title: "Family Interplay",
     description: "An interactive animation exploring Chinese family traditions and structures. A study of domestic space, physical ritual, and the emotional resonance of traditional architecture.",
     category: "Interaction Design",
-    image: image4,
+    image: "https://images.unsplash.com/photo-1542037104857-ffbb0b9155fb?q=80&w=1954&auto=format&fit=crop",
     link: "https://liyushan7ms.wixsite.com/caroline/portfolio-collections/portfolio/graphic-design-case-studies",
   },
   {
@@ -49,7 +44,7 @@ const INITIAL_PROJECTS: Project[] = [
     title: "Career Planning Game",
     description: "A gamified vocational exploration platform designed to help young people navigate their professional futures through strategic choices and interactive guidance.",
     category: "Game Design",
-    image: image5,
+    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop",
     link: "https://liyushan7ms.wixsite.com/caroline/portfolio-collections/portfolio/project-management-highlights",
   },
   {
@@ -57,7 +52,7 @@ const INITIAL_PROJECTS: Project[] = [
     title: "Stolen Shadow",
     description: "A cinematic 3D animation film about a battle written in ink and fate. Features a jade 'bi' disk, a white tiger, and themes of destiny rooted in traditional aesthetics.",
     category: "3D Animation",
-    image: stolenShadowImage,
+    image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=2000&auto=format&fit=crop", // Replacing with a cinematic movie posters vibe (Unsplash collage)
     link: "https://liyushan7ms.wixsite.com/caroline/portfolio-collections/portfolio/carolines-photography-showcase",
   }
 ];

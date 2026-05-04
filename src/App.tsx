@@ -3,7 +3,7 @@ import { Hero } from "./components/Hero";
 import { WorkSection } from "./components/WorkSection";
 import { Footer } from "./components/Footer";
 
-import carolineAboutImage from "./assets/images/regenerated_image_1777911686070.png";
+import carolinePortrait from "@/src/assets/images/regenerated_image_1777911686070.png";
 
 export default function App() {
   return (
@@ -23,7 +23,7 @@ export default function App() {
           <div className="md:col-span-8 flex flex-col gap-12">
             <div className="aspect-[21/9] bg-neutral-100 border border-brand-paper/10 overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000 group relative">
               <img 
-                src={carolineAboutImage} 
+                src={carolinePortrait} 
                 alt="Caroline Li"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
               />
@@ -46,26 +46,33 @@ export default function App() {
           </div>
 
           <div className="md:col-span-4 flex flex-col gap-12">
-            <h2 className="text-serif text-6xl md:text-8xl leading-[0.9] tracking-tighter">
+            <h2 className="font-serif text-6xl md:text-8xl leading-[0.9] tracking-tighter">
               Meaningful <br />
               User <br />
               <span className="opacity-30">Experiences.</span> 
             </h2>
             
             <div className="flex flex-col gap-8 pt-12 border-t border-brand-paper/10">
-              <div className="flex flex-col gap-4">
-                <span className="text-[10px] uppercase font-bold tracking-widest opacity-30">Activities & Interests</span>
-                <div className="flex flex-wrap gap-3">
+              <div className="flex flex-col gap-6">
+                <span className="text-[10px] uppercase font-bold tracking-widest opacity-30 italic">Philosophy & Approach</span>
+                <p className="text-sm font-light leading-relaxed opacity-80">
+                  I believe in a civic credit system that reimagines how value circulates within neighborhoods by turning everyday acts of care into measurable contributions. 
+                  By making acts of care visible and trackable, we transform everyday mutual support into a sustainable system of shared value within residential communities.
+                </p>
+                <div className="h-px bg-brand-paper/10 w-12" />
+                <p className="text-sm font-light leading-relaxed opacity-80">
+                  Whether designing for rental apartment communities or urban ecosystems, the goal is to bridge the gap between human curiosity and social impact through interactive narratives.
+                </p>
+              </div>
+              
+              <div className="flex flex-col gap-4 pt-4">
+                <span className="text-[10px] uppercase font-bold tracking-widest opacity-30">Active Exploration</span>
+                <div className="flex flex-wrap gap-2 text-[9px] uppercase tracking-wider font-bold">
                   {['Yoga', 'Climbing', 'Hiking', 'Gaming', 'Reading', 'Visual Research'].map(tag => (
-                    <span key={tag} className="px-4 py-2 bg-brand-bg border border-brand-paper/10 text-[10px] font-bold uppercase tracking-widest hover:bg-brand-paper hover:text-brand-bg transition-all cursor-default">
-                      {tag}
-                    </span>
+                    <span key={tag} className="opacity-40 hover:opacity-100 transition-opacity cursor-default">• {tag}</span>
                   ))}
                 </div>
               </div>
-              <p className="font-serif text-2xl italic leading-tight text-editorial/80">
-                Active, Adventurous, Mindful, Curious. Always growing.
-              </p>
             </div>
           </div>
 

@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import carolineHeroImage from "../assets/images/Caroline_6578.jpg";
+import carolinePortrait from "@/src/assets/images/regenerated_image_1777911686070.png";
 
 export function Hero() {
   return (
@@ -39,7 +39,7 @@ export function Hero() {
             className="aspect-[3/4] bg-neutral-100 border border-brand-paper/10 relative group overflow-hidden shadow-2xl"
           >
             <img 
-              src={carolineHeroImage} 
+              src={carolinePortrait} 
               alt="Caroline Li Portrait" 
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
             />
