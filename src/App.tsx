@@ -3,6 +3,8 @@ import { Hero } from "./components/Hero";
 import { WorkSection } from "./components/WorkSection";
 import { Footer } from "./components/Footer";
 
+import carolineAboutImage from "./assets/images/regenerated_image_1777911686070.png";
+
 export default function App() {
   return (
     <main className="relative bg-brand-bg scroll-smooth">
@@ -21,7 +23,7 @@ export default function App() {
           <div className="md:col-span-8 flex flex-col gap-12">
             <div className="aspect-[21/9] bg-neutral-100 border border-brand-paper/10 overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000 group relative">
               <img 
-                src="/images/regenerated_image_1777911686070.png" 
+                src={carolineAboutImage} 
                 alt="Caroline Li"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
               />
